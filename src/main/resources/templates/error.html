@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<title>Error page</title>
+<head th:replace="fragments/commons::head"></head>
+<body>
+<header th:replace="fragments/commons::nav"></header>
+<main>
+  <div class="container bg-blur rounded mt-5 ">
+    <h1>Something went wrong</h1>
+    <hr class="my-3 bg-white w-50"/>
+    <p class="h4">We are sorry, but something went wrong. Please try again later.</p>
+    <hr class="my-3 bg-white w-75"/>
+    <h3>
+      <a class="text-primary" href="/">Go back to home page</a>
+    </h3>
+  </div>
+</main>
+<footer th:replace="fragments/commons::footer"></footer>
+</body>
+</html>
